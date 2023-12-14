@@ -1,0 +1,44 @@
+           g-s          g-e
+            |============|
+    s             e
+    |=============|
+
+leading:        [nil]
+overlapping:    [g-s e]
+next:           e
+
+          g-s   g-e
+           |=====|
+s     e
+|=====|
+
+leading:        [nil]
+overlapping:    [nil]
+next:           g-s
+
+g-s      g-e
+ |========|
+   s  e
+   |==|
+
+leading:        [g-s s]
+overlapping:    [s e]
+next:           e
+
+g-s      g-e
+ |========|
+   s          e
+   |==========|
+
+leading:        [g-s s]
+overlapping:    [s g-e]
+next:           g-e
+
+g-s      g-e
+ |========|
+            s          e
+            |==========|
+
+leading:        [g-s g-e]
+overlapping:    [nil]
+next:           g-e
